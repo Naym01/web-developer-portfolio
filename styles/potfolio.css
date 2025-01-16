@@ -137,7 +137,7 @@ main section{
     margin: 130px 0px;
 }
 
-/* About style  */
+/* section 01: (About me) start */
 .about {
     border-radius: 10px;
     padding: 130px 150px;
@@ -162,7 +162,7 @@ main section{
     font-weight: bold;
     font-size:15px; 
 }
-/* section 02:style */
+/* section 02:( what I do) start */
 
 .skills-container{
     display: flex;
@@ -173,4 +173,49 @@ main section{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
+}
+/*  section 03:( what I do) start  */
+.resumi{
+    
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+.experience-sub-title{
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 20px;
+}
+.experience-title, .experience-description{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+     
+}
+
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 }
